@@ -1,0 +1,60 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 20px; /* Padding inside header */
+    text-align: center;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 15px; /* Space between links */
+}
+
+nav a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Main content styles */
+main {
+    padding: 20px; /* Padding inside main */
+}
+
+section {
+    margin-bottom: 20px; /* Margin below each section */
+    padding: 15px; /* Padding inside sections */
+    border: 1px solid #ccc; /* Border around sections */
+    background-color: #f9f9f9; /* Light background */
+}
+
+/* Article styles */
+article {
+    margin-top: 10px; /* Space between articles */
+    padding: 10px; /* Padding inside articles */
+    border: 1px solid #ddd; /* Border around articles */
+    background-color: #ffffff; /* White background */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px; /* Padding inside footer */
+    background-color: #333; /* Dark background */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
